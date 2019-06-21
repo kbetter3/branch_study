@@ -23,6 +23,11 @@ export default new Router({
           component: () => import('@/components/Page2')
         }
       ]
+    },
+    {
+      path: '/test',
+      name: 'Test',
+      component: () => import('@/components/Test')
     }
   ]
 })
